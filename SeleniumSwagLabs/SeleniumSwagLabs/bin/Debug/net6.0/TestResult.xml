@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="27" result="Passed" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54" engine-version="3.15.2.0" clr-version="6.0.6" start-time="2022-07-28 18:06:18Z" end-time="2022-07-28 18:10:23Z" duration="245.155156">
+  <command-line><![CDATA[C:\NUnit.Console-3.15.2\bin\net6.0\nunit3-console.dll SeleniumSwagLabs.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1031" name="SeleniumSwagLabs.dll" fullname="C:/Users/Vishwa/source/repos/SeleniumSwagLabs/SeleniumSwagLabs/bin/Debug/net6.0/SeleniumSwagLabs.dll" runstate="Runnable" testcasecount="27" result="Passed" start-time="2022-07-28T18:06:18.3261990Z" end-time="2022-07-28T18:10:23.3018847Z" duration="244.975599" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+    <environment framework-version="3.13.3.0" clr-version="6.0.6" os-version="Microsoft Windows 10.0.22000" platform="Win32NT" cwd="C:\Users\Vishwa\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0" machine-name="DESKTOP-NH13EFS" user="Vishwa" user-domain="DESKTOP-NH13EFS" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Vishwa\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4432" />
+      <property name="_APPDOMAIN" value="nunit3-console" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1-1000" name="[default namespace]" fullname="SeleniumSwagLabs_NUnitAssemblyHooks" classname="SeleniumSwagLabs_NUnitAssemblyHooks" runstate="Runnable" testcasecount="27" result="Passed" start-time="2022-07-28T18:06:18.3352473Z" end-time="2022-07-28T18:10:23.2972877Z" duration="244.962041" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+      <output><![CDATA[-> Loading plugin C:\Users\Vishwa\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\Vishwa\source\repos\SeleniumSwagLabs\SeleniumSwagLabs\bin\Debug\net6.0\SeleniumSwagLabs.dll
+-> Using default config
+]]></output>
+      <test-suite type="TestSuite" id="1-1032" name="SeleniumSwagLabs" fullname="SeleniumSwagLabs" runstate="Runnable" testcasecount="27" result="Passed" start-time="2022-07-28T18:06:18.6442383Z" end-time="2022-07-28T18:10:23.2946348Z" duration="244.650396" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+        <test-suite type="TestSuite" id="1-1033" name="Features" fullname="SeleniumSwagLabs.Features" runstate="Runnable" testcasecount="27" result="Passed" start-time="2022-07-28T18:06:18.6443077Z" end-time="2022-07-28T18:10:23.2940126Z" duration="244.649705" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+          <test-suite type="TestFixture" id="1-1001" name="LoginPageFeature" fullname="SeleniumSwagLabs.Features.LoginPageFeature" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" testcasecount="27" result="Passed" start-time="2022-07-28T18:06:18.6443404Z" end-time="2022-07-28T18:10:23.2895424Z" duration="244.645203" total="27" passed="27" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="54">
+            <properties>
+              <property name="Description" value="LoginPage" />
+            </properties>
+            <test-case id="1-1029" name="ToValidateLogin_LogoIsPresentInLoginPage" fullname="SeleniumSwagLabs.Features.LoginPageFeature.ToValidateLogin_LogoIsPresentInLoginPage" methodname="ToValidateLogin_LogoIsPresentInLoginPage" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="405781001" result="Passed" start-time="2022-07-28T18:06:18.6464838Z" end-time="2022-07-28T18:06:25.8888617Z" duration="7.242517" asserts="2">
+              <properties>
+                <property name="Description" value="To Validate Login-logo is present in login page" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.1s)
+Then Swag Login-Logo is present
+True
+-> done: LoginPageStepDefinitions.ThenSwagLogin_LogoIsPresent() (3.0s)
+]]></output>
+            </test-case>
+            <test-case id="1-1028" name="ToValidateSwagLabsLogoIsPresentInLoginPage" fullname="SeleniumSwagLabs.Features.LoginPageFeature.ToValidateSwagLabsLogoIsPresentInLoginPage" methodname="ToValidateSwagLabsLogoIsPresentInLoginPage" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="2026059801" result="Passed" start-time="2022-07-28T18:06:25.8971440Z" end-time="2022-07-28T18:06:31.8009569Z" duration="5.903812" asserts="2">
+              <properties>
+                <property name="Description" value="To Validate Swag Labs logo is present in login page" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+Then Swag Lab Logo is present
+True
+-> done: LoginPageStepDefinitions.ThenSwagLabLogoIsPresent() (3.1s)
+]]></output>
+            </test-case>
+            <test-case id="1-1027" name="ToValidateThatPasswordFieldIsAvailableOnLoginPage_" fullname="SeleniumSwagLabs.Features.LoginPageFeature.ToValidateThatPasswordFieldIsAvailableOnLoginPage_" methodname="ToValidateThatPasswordFieldIsAvailableOnLoginPage_" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="470350499" result="Passed" start-time="2022-07-28T18:06:31.8015925Z" end-time="2022-07-28T18:06:37.9845913Z" duration="6.182999" asserts="2">
+              <properties>
+                <property name="Description" value="To validate  that 'Password' field is available on login page." />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+Then Password Field is visible.
+True
+-> done: LoginPageStepDefinitions.ThenPasswordFieldIsVisible_() (3.1s)
+]]></output>
+            </test-case>
+            <test-case id="1-1026" name="ToValidateThatUsernameFieldIsAvailableOnLoginPage_" fullname="SeleniumSwagLabs.Features.LoginPageFeature.ToValidateThatUsernameFieldIsAvailableOnLoginPage_" methodname="ToValidateThatUsernameFieldIsAvailableOnLoginPage_" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="271324614" result="Passed" start-time="2022-07-28T18:06:37.9860324Z" end-time="2022-07-28T18:06:43.9356712Z" duration="5.949638" asserts="2">
+              <properties>
+                <property name="Description" value="To validate  that 'Username' field is available on login page." />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+Then Username Field is visible.
+True
+-> done: LoginPageStepDefinitions.ThenUsernameFieldIsVisible_() (3.1s)
+]]></output>
+            </test-case>
+            <test-case id="1-1007" name="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyPassword" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringEmptyPassword" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyPassword" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="2026105299" result="Passed" start-time="2022-07-28T18:06:43.9368650Z" end-time="2022-07-28T18:06:53.4316550Z" duration="9.494790" asserts="2">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs login functionality by entering empty password" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters Username "standard_user" and Password ""
+-> done: LoginPageStepDefinitions.WhenUserEntersUsernameAndPassword("standard_user", "") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Password is  required' is displayed on the Screen.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessagestatingIsDisplayedOnTheScreen_("Edit sadface:Pass...") (3.1s)
+]]></output>
+            </test-case>
+            <test-case id="1-1008" name="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsername" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsername" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsername" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1689194226" result="Passed" start-time="2022-07-28T18:06:53.4317031Z" end-time="2022-07-28T18:07:03.0871416Z" duration="9.655439" asserts="2">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs login functionality by entering empty username" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters Username "" and Password "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersUsernameAndPassword("", "secret_sauce") (0.2s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username is  required'  is Displayed on the screen.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayedOnTheScreen_("Edit sadface:User...") (3.1s)
+]]></output>
+            </test-case>
+            <test-case id="1-1006" name="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsernameAndPassword" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsernameAndPassword" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringEmptyUsernameAndPassword" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1813293640" result="Passed" start-time="2022-07-28T18:07:03.0873650Z" end-time="2022-07-28T18:07:12.7837051Z" duration="9.696340" asserts="2">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs login functionality by entering empty username and password" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters Username "" and Password ""
+-> done: LoginPageStepDefinitions.WhenUserEntersUsernameAndPassword("", "") (0.2s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username is  required' is displayed on the screen.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayedOnThescreen_("Edit sadface:User...") (3.1s)
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1-1025" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" testcasecount="16" result="Passed" start-time="2022-07-28T18:07:12.7839952Z" end-time="2022-07-28T18:09:42.5467168Z" duration="149.762723" total="16" passed="16" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="32">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs login functionality by entering invalid details" />
+              </properties>
+              <test-case id="1-1009" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard_user&quot;,&quot;sauce_secret&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard_user&quot;,&quot;sauce_secret&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="906734114" result="Passed" start-time="2022-07-28T18:07:12.7844703Z" end-time="2022-07-28T18:07:22.3354347Z" duration="9.550964" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "standard_user" and "sauce_secret"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("standard_user", "sauce_secret") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1010" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;user_standard&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;user_standard&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="869017229" result="Passed" start-time="2022-07-28T18:07:22.3354773Z" end-time="2022-07-28T18:07:31.5477271Z" duration="9.212250" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "user_standard" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("user_standard", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1011" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Vishwa&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Vishwa&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="554275508" result="Passed" start-time="2022-07-28T18:07:31.5496629Z" end-time="2022-07-28T18:07:41.4269702Z" duration="9.877306" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "Vishwa" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("Vishwa", "secret_sauce") (0.2s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1012" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1108010421" result="Passed" start-time="2022-07-28T18:07:41.4286539Z" end-time="2022-07-28T18:07:50.6394481Z" duration="9.210794" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "Admin" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("Admin", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1013" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;12345&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;12345&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1915964662" result="Passed" start-time="2022-07-28T18:07:50.6395875Z" end-time="2022-07-28T18:07:59.6983123Z" duration="9.058725" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "12345" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("12345", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1014" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;#$%&amp;*&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;#$%&amp;*&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="869902829" result="Passed" start-time="2022-07-28T18:07:59.6983744Z" end-time="2022-07-28T18:08:08.7439991Z" duration="9.045624" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "#$%&*" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("#$%&*", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1015" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin123&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin123&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="526169065" result="Passed" start-time="2022-07-28T18:08:08.7442589Z" end-time="2022-07-28T18:08:18.2952910Z" duration="9.551032" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "Admin123" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("Admin123", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1016" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin%$&amp;&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin%$&amp;&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="35475623" result="Passed" start-time="2022-07-28T18:08:18.2975132Z" end-time="2022-07-28T18:08:27.4508061Z" duration="9.153292" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "Admin%$&" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("Admin%$&", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1017" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin&gt;/*&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;Admin&gt;/*&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="382674966" result="Passed" start-time="2022-07-28T18:08:27.4547348Z" end-time="2022-07-28T18:08:36.8642118Z" duration="9.409476" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "Admin>/*" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("Admin>/*", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1018" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;STANDARD_USER&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;STANDARD_USER&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1175122998" result="Passed" start-time="2022-07-28T18:08:36.8652284Z" end-time="2022-07-28T18:08:46.1954906Z" duration="9.330262" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "STANDARD_USER" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("STANDARD_USER", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1019" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;sTaNdArD_uSeR&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;sTaNdArD_uSeR&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="685897533" result="Passed" start-time="2022-07-28T18:08:46.1959839Z" end-time="2022-07-28T18:08:55.4697417Z" duration="9.273758" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "sTaNdArD_uSeR" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("sTaNdArD_uSeR", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1020" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard.user&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard.user&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1584776929" result="Passed" start-time="2022-07-28T18:08:55.4709936Z" end-time="2022-07-28T18:09:04.6836111Z" duration="9.212617" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "standard.user" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("standard.user", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1021" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard_userproblem_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standard_userproblem_user&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1920439129" result="Passed" start-time="2022-07-28T18:09:04.6837526Z" end-time="2022-07-28T18:09:14.0772246Z" duration="9.393472" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "standard_userproblem_user" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("standard_userprob...", "secret_sauce") (0.4s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1022" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;secret_sauce&quot;,&quot;standard_user&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;secret_sauce&quot;,&quot;standard_user&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1560500191" result="Passed" start-time="2022-07-28T18:09:14.0814631Z" end-time="2022-07-28T18:09:23.5376081Z" duration="9.456144" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "secret_sauce" and "standard_user"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("secret_sauce", "standard_user") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1023" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standarduser_&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;standarduser_&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="525437584" result="Passed" start-time="2022-07-28T18:09:23.5377253Z" end-time="2022-07-28T18:09:32.9185518Z" duration="9.380827" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "standarduser_" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("standarduser_", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+              <test-case id="1-1024" name="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;_standarduser&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails(&quot;_standarduser&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityByEnteringInvalidDetails" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="915867949" result="Passed" start-time="2022-07-28T18:09:32.9190186Z" end-time="2022-07-28T18:09:42.5434213Z" duration="9.624403" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters invalid "_standarduser" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersInvalidAnd("_standarduser", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then Message stating 'Edit sadface:Username and Password do not match any user in the service' is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenMessageStatingIsDisplayed_("Edit sadface:User...") (3.1s)
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1-1005" name="VerifyingSwagLabsLoginFunctionalityOnChrome" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" testcasecount="3" result="Passed" start-time="2022-07-28T18:09:42.5485208Z" end-time="2022-07-28T18:10:16.8058256Z" duration="34.257304" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs login functionality on chrome" />
+              </properties>
+              <test-case id="1-1002" name="VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;standard_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;standard_user&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="54299714" result="Passed" start-time="2022-07-28T18:09:42.5486128Z" end-time="2022-07-28T18:09:52.4561299Z" duration="9.907518" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters  "standard_user" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersAnd("standard_user", "secret_sauce") (0.3s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.2s)
+Then It shows home page
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenItShowsHomePage() (3.4s)
+]]></output>
+              </test-case>
+              <test-case id="1-1003" name="VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;performance_glitch_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;performance_glitch_user&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="149319134" result="Passed" start-time="2022-07-28T18:09:52.4561820Z" end-time="2022-07-28T18:10:07.0063601Z" duration="14.550179" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters  "performance_glitch_user" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersAnd("performance_glitc...", "secret_sauce") (0.4s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (8.2s)
+Then It shows home page
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenItShowsHomePage() (3.3s)
+]]></output>
+              </test-case>
+              <test-case id="1-1004" name="VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;problem_user&quot;,&quot;secret_sauce&quot;,null)" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityOnChrome(&quot;problem_user&quot;,&quot;secret_sauce&quot;,null)" methodname="VerifyingSwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="1158906089" result="Passed" start-time="2022-07-28T18:10:07.0064160Z" end-time="2022-07-28T18:10:16.8056940Z" duration="9.799279" asserts="2">
+                <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user enters  "problem_user" and "secret_sauce"
+-> done: LoginPageStepDefinitions.WhenUserEntersAnd("problem_user", "secret_sauce") (0.4s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.2s)
+Then It shows home page
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenItShowsHomePage() (3.4s)
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-case id="1-1030" name="VerifyingSwagLabsLoginFunctionalityOnChrome" fullname="SeleniumSwagLabs.Features.LoginPageFeature.VerifyingSwagLabsLoginFunctionalityOnChrome" methodname="VerifyingSwagLabsLoginFunctionalityOnChrome" classname="SeleniumSwagLabs.Features.LoginPageFeature" runstate="Runnable" seed="218668202" result="Passed" start-time="2022-07-28T18:10:16.8061913Z" end-time="2022-07-28T18:10:23.2877872Z" duration="6.481596" asserts="2">
+              <properties>
+                <property name="Description" value="Verifying SwagLabs Login functionality on chrome" />
+              </properties>
+              <output><![CDATA[Given Chrome is launched and SwagLabs application is launched
+Swag Labs
+-> done: LoginPageStepDefinitions.GivenChromeIsLaunchedAndSwagLabsApplicationIsLaunched() (0.2s)
+When user Enters valid Username "locked_out_user" and Password "sauce_secret"
+-> done: LoginPageStepDefinitions.WhenUserEntersValidUsernameAndPassword("locked_out_user", "sauce_secret") (0.4s)
+And user clicks on login-button
+-> done: LoginPageStepDefinitions.WhenUserClicksOnLogin_Button() (3.1s)
+Then It shows message stating "Epic sadface: Sorry, this user has been locked out" is displayed.
+Swag Labs
+-> done: LoginPageStepDefinitions.ThenItShowsMessageStatingIsDisplayed_("Epic sadface: Sor...") (0.1s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
